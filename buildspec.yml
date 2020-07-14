@@ -15,6 +15,6 @@ phases:
       # - aws s3 rm --recursive "s3://mywellnessid.com/"
 
 artifacts:
-  base-directory: './'
+  base-directory: './public'
   files:
     - '**/*'

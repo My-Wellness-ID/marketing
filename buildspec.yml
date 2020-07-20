@@ -12,7 +12,7 @@ phases:
 
   build:
     commands:
-      - aws s3 rm --recursive "s3://${BUCKET_NAME}/"
+      # - aws s3 rm --recursive "s3://${BUCKET_NAME}/"
 
 artifacts:
   base-directory: './public'

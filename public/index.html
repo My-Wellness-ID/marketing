@@ -103,20 +103,23 @@ Surjith S M / @surjithctly
         </nav>
         <div class="top-banner row m0 text-center fadeInOnLoad">
             <div class="container">
-                <h2>The future of Wellness is here</h2>
-                <p>Leveraging healthcare wearbles, Artifical Intelligence and Machine Learning to identfy
+                <div style="backdrop-filter: blur(20px); padding: 10px;">
+                    <h2>The future of Wellness is here</h2>
+                    <p>Leveraging healthcare wearbles, Artifical Intelligence and Machine Learning to identfy
                     possible health emergencies while providing secure data access through the Blockchain. </p>
+                </div>
+                
                 <!-- <a href="https://vimeo.com/142705963" class="btn btn-primary btn-lg video">Play <img src="images/play-btn-icon.png" alt=""> Video</a> -->
                 <br>
                 <!-- <a href="#product-choose" class="btn btn-warning btn-lg visible-sm-inline-block visible-xs-inline-block">pre-order now</a> -->
-                <div class="row apple-watch">
+                <!-- <div class="row apple-watch">
                     <img src="images/apple-watch.png" alt="" class="watch_img">
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
     <!--==========The Product==========-->
-    <section class="row the-product" id="product">
+    <section class="row the-product" id="product" style="padding-bottom: 0px;">
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>My Wellness ID Smart Watch</h2>
@@ -126,9 +129,15 @@ Surjith S M / @surjithctly
             </div>
             <div class="row apple-watch-note-feature text-center">
                 <!-- <img src="images/apple-watch-2.png" alt=""> -->
-                <img src="images/mwi/watch_image.png" style="box-shadow: 5px 5px 30px grey;" alt="">
+                <!-- <img src="images/mwi/watch_image.png" style="box-shadow: 5px 5px 30px grey;" alt=""> -->
+                <!-- <img src="images/mwi/2_watches.png" alt=""> -->
+                <div class="row">
+                    <div class="col-md-4"><img src="images/mwi/2_watches.png" style="width:100%;" alt=""></div>
+                    <div class="col-md-4"><img src="images/mwi/watch_call.png" style="width:100%;" alt=""></div>
+                    <div class="col-md-4"><img src="images/mwi/watch_temp.png" style="width:100%;" alt=""></div>
+                </div>
                 <!--==========Feature Noted top right==========-->
-                <div class="feature-note right top wow fadeInRight">
+                <!-- <div class="feature-note right top wow fadeInRight">
                     <div class="indicator">
                         <div class="plus-icon">
                             <span class="plus">+</span>
@@ -137,9 +146,9 @@ Surjith S M / @surjithctly
                     <div class="feature-name">
                         durable strap
                     </div>
-                </div>
+                </div> -->
                 <!--==========Feature Noted top left==========-->
-                <div class="feature-note left top wow fadeInLeft">
+                <!-- <div class="feature-note left top wow fadeInLeft">
                     <div class="indicator">
                         <div class="plus-icon">
                             <span class="plus">+</span>
@@ -148,9 +157,9 @@ Surjith S M / @surjithctly
                     <div class="feature-name">
                         Gps tracker
                     </div>
-                </div>
+                </div> -->
                 <!--==========Feature Noted bottom right==========-->
-                <div class="feature-note right bottom wow fadeInUp">
+                <!-- <div class="feature-note right bottom wow fadeInUp">
                     <div class="indicator">
                         <div class="plus-icon">
                             <span class="plus">+</span>
@@ -159,9 +168,9 @@ Surjith S M / @surjithctly
                     <div class="feature-name">
                         Bluetooth 4.2
                     </div>
-                </div>
+                </div> -->
                 <!--==========Feature Noted bottom left==========-->
-                <div class="feature-note left bottom wow fadeInLeft">
+                <!-- <div class="feature-note left bottom wow fadeInLeft">
                     <div class="indicator">
                         <div class="plus-icon">
                             <span class="plus">+</span>
@@ -170,7 +179,7 @@ Surjith S M / @surjithctly
                     <div class="feature-name">
                         water resistant
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -824,7 +833,9 @@ Surjith S M / @surjithctly
     <section class="row contact" id="contact">
         <!-- ================== GOOGLE MAP (Change data-lat & data-lon values) ====================== -->
         <!-- TIP : To change the map style, Visit /js/plugins/google-map.js -->
-        <div id="mapBox" class="row m0" data-lat="32.7876715" data-lon="-79.931078" data-zoom="15"></div>
+        <!-- <div id="mapBox" class="row m0" data-lat="32.7876715" data-lon="-79.931078" data-zoom="15"></div> Charleston -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.173014129065!2d-79.93326668506593!3d32.78767148096877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQ3JzE1LjYiTiA3OcKwNTUnNTEuOSJX!5e0!3m2!1sen!2sus!4v1595247819590!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <!-- <div id="mapBox" class="row m0" data-lat="37.3818288" data-lon="-122.0636325" data-zoom="15"></div> -->
         <!-- Flippable Contact Box -->
         <div class="flip-box-container row m0">
             <div class="flip-box row m0 wow fadeIn">
@@ -875,7 +886,7 @@ Surjith S M / @surjithctly
     <!--==========Footer==========-->
     <footer class="row">
         <div class="container">
-            <div class="row m0 social-links">
+            <!-- <div class="row m0 social-links">
                 <ul class="nav">
                     <li class="wow fadeInUp"><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li class="wow fadeInUp" data-wow-delay="0.1s"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -884,7 +895,7 @@ Surjith S M / @surjithctly
                     <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     <li class="wow fadeInUp" data-wow-delay="0.5s"><a href="#"><i class="fa fa-pinterest"></i></a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="row m0 menu-rights" style="display:none;">
                 <ul class="nav footer-menu">
                     <li><a href="about.html">About</a></li>
@@ -1034,7 +1045,7 @@ Surjith S M / @surjithctly
     <script src="js/includes/contact.js"></script>
     <script src="js/includes/custom.js"></script>
     <!-- Style Switcher -->
-    <script src="js/includes/style-switcher.js"></script>
+    <!-- <script src="js/includes/style-switcher.js"></script> -->
     <!-- Main JS -->
     <script src="js/main.js"></script>
 </body>

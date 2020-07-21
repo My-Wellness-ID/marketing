@@ -913,7 +913,9 @@ textarea.form-control {
 }
 
 header.row {
-  background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+  /* background: url(../images/header-background.jpg) no-repeat scroll center bottom; */
+  /* https://pixabay.com/illustrations/points-lines-interfaces-contact-954970/ */
+  background: url(../images/mwi/points-954970_1920.jpg);
   background-size: cover;
 }
 
